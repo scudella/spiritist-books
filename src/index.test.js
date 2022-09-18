@@ -43,5 +43,23 @@ describe('spiritist-books', function () {
         return false;
       }
     });
+    it('should return and array of random items if passed a number', function () {
+      var randomItems = spiritistBooks.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function (book) {
+        expect(spiritistBooks.all).to.satisfy(includeThisRandObject);
+
+        function includeThisRandObject(array) {
+          if (
+            array.find(function (obj) {
+              return obj.name === book.name;
+            })
+          ) {
+            return true;
+          }
+          return false;
+        }
+      });
+    });
   });
 });
