@@ -24,14 +24,14 @@ jobs:
         run: npm run check-coverage
       - name: Upload coverage reports to codecov
         uses: codecov/codecov-action@v3
-          with:
-            # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-            directory: ./coverage/
-            files: lcov.info
-            # flags: unittests # optional
-            name: spiritist-books # optional
-            fail_ci_if_error: true # optional (default = false)
-            verbose: true # optional (default = false)
+        with:
+          # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          directory: ./coverage/
+          files: lcov.info
+          # flags: unittests # optional
+          name: spiritist-books # optional
+          fail_ci_if_error: true # optional (default = false)
+          verbose: true # optional (default = false)
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
