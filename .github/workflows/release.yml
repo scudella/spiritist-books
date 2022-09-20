@@ -20,9 +20,11 @@ jobs:
         run: npm ci
       - name: test
         run: npm run test
+      - name: test check-coverage
         run: npm run check-coverage
-      - name: Release
+      - name: report coverage to codecov
         run: npm run report-coverage
+      - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
