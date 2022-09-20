@@ -23,6 +23,7 @@ jobs:
       - name: test check-coverage
         run: npm run check-coverage
       - name: Upload coverage reports to codecov
+        run: |
         curl -Os https://uploader.codecov.io/latest/linux/codecov
         chmod +x codecov
         ./codecov -t ${CODECOV_TOKEN}
