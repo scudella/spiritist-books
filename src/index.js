@@ -1,5 +1,5 @@
-var spiritistBooks = require('./spiritist-books');
-var uniqueRandomArray = require('unique-random-array');
+import spiritistBooks from './spiritist-books';
+import uniqueRandomArray from 'unique-random-array';
 var getRandomItem = uniqueRandomArray(spiritistBooks);
 
 module.exports = {
