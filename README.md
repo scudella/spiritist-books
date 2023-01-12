@@ -1,6 +1,6 @@
 # spiritist-books
 
-[![actions build](https://img.shields.io/github/workflow/status/scudella/spiritist-books/Release.svg)](https://github.com/scudella/spiritist-books/actions/workflows/release.yml)
+[![actions build](https://img.shields.io/github/actions/workflow/status/scudella/spiritist-books/release.yml?branch=main)](https://github.com/scudella/spiritist-books/actions/workflows/release.yml)
 [![codecov coverage](https://img.shields.io/codecov/c/github/scudella/spiritist-books.svg)](https://app.codecov.io/gh/scudella/spiritist-books)
 [![version](https://img.shields.io/npm/v/spiritist-books.svg)](https://www.npmjs.com/package/spiritist-books)
 [![MIT License](https://img.shields.io/npm/l/spiritist-books.svg)](http://opensource.org/licenses/MIT)
