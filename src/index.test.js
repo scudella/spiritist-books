@@ -12,13 +12,13 @@ describe('spiritist-books', function () {
         });
       }
     });
-    it('should contain {name: Nosso Lar}', function () {
+    it('should contain {title: Nosso Lar}', function () {
       expect(spiritistBooks.all).to.satisfy(includeThisObject);
 
       function includeThisObject(array) {
         if (
           array.find(function (item) {
-            return item.name === 'Nosso Lar';
+            return item.title === 'Nosso Lar';
           })
         ) {
           return true;
