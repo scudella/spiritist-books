@@ -1,5 +1,6 @@
 {
   "name": "spiritist-books",
+  "type": "module",
   "version": "0.0.0-development",
   "description": "Get random spiritist books",
   "main": "dist/index.js",
@@ -13,7 +14,7 @@
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "build:umd": "webpack --output-filename index.umd.js",
-    "build:umd.min": "webpack --output-filename index.umd.min.js -p",
+    "build:umd.min": "webpack --output-filename index.umd.min.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -36,7 +37,7 @@
   },
   "homepage": "https://github.com/scudella/spiritist-books#readme",
   "dependencies": {
-    "unique-random-array": "1.0.0"
+    "unique-random-array": "3.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

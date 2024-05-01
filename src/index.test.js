@@ -1,23 +1,22 @@
 import { expect } from 'chai';
-import spiritistBooks from './index';
+import spiritistBooks from './index.js';
 
-describe('spiritist-books', function () {
-  describe('all', function () {
-    it('should be an array of objects', function () {
-      expect(spiritistBooks.all).to.satisfy(isArrayOfObjects);
-
+describe('spiritist-books', () => {
+  describe('all', () => {
+    it('should be an array of objects', () => {
       function isArrayOfObjects(array) {
-        return array.every(function (item) {
+        return array.every((item) => {
           return typeof item === 'object';
         });
       }
-    });
-    it('should contain {title: Nosso Lar}', function () {
-      expect(spiritistBooks.all).to.satisfy(includeThisObject);
 
+      expect(spiritistBooks.all).to.satisfy(isArrayOfObjects);
+    });
+
+    it('should contain {title: Nosso Lar}', () => {
       function includeThisObject(array) {
         if (
-          array.find(function (item) {
+          array.find((item) => {
             return item.title === 'Nosso Lar';
           })
         ) {
@@ -25,16 +24,17 @@ describe('spiritist-books', function () {
         }
         return false;
       }
+
+      expect(spiritistBooks.all).to.satisfy(includeThisObject);
     });
   });
-  describe('random', function () {
-    it('should return a random item from the spiritistBooks.all', function () {
-      var randomItem = spiritistBooks.random();
-      expect(spiritistBooks.all).to.satisfy(includeThisRandomObject);
 
+  describe('random', () => {
+    it('should return a random item from the spiritistBooks', () => {
       function includeThisRandomObject(array) {
+        const randomItem = spiritistBooks.random();
         if (
-          array.find(function (item) {
+          array.find((item) => {
             return item.name === randomItem.name;
           })
         ) {
@@ -42,16 +42,21 @@ describe('spiritist-books', function () {
         }
         return false;
       }
+
+      expect(spiritistBooks.all).to.satisfy(includeThisRandomObject);
     });
-    it('should return and array of random items if passed a number', function () {
-      var randomItems = spiritistBooks.random(3);
+
+    it('should return an array of random items if passed a number', () => {
+      const randomItems = spiritistBooks.random(3);
+
       expect(randomItems).to.have.length(3);
-      randomItems.forEach(function (book) {
+
+      randomItems.forEach((book) => {
         expect(spiritistBooks.all).to.satisfy(includeThisRandObject);
 
         function includeThisRandObject(array) {
           if (
-            array.find(function (obj) {
+            array.find((obj) => {
               return obj.name === book.name;
             })
           ) {

@@ -1,4 +1,4 @@
-module.exports = [
+export const spiritistBooks = [
   {
     title: 'Parnaso de além túmulo',
     authors: ['Francisco Cândido Xavier'],

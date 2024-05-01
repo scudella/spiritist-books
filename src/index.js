@@ -1,8 +1,8 @@
-import spiritistBooks from './spiritist-books';
+import { spiritistBooks } from './spiritist-books.js';
 import uniqueRandomArray from 'unique-random-array';
-var getRandomItem = uniqueRandomArray(spiritistBooks);
+const getRandomItem = uniqueRandomArray(spiritistBooks);
 
-module.exports = {
+export default {
   all: spiritistBooks,
   random: random,
 };
@@ -11,8 +11,8 @@ function random(number) {
   if (number === undefined) {
     return getRandomItem();
   } else {
-    var randomItems = [];
-    for (var i = 0; i < number; i++) {
+    const randomItems = [];
+    for (let i = 0; i < number; i++) {
       randomItems.push(getRandomItem());
     }
     return randomItems;
