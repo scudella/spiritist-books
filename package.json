@@ -1,6 +1,14 @@
 {
   "name": "spiritist-books",
   "type": "module",
+  "bin": {
+    "pre-commit": "./.git/hooks/pre-commit.js",
+    "prepare-commit-msg": "./.git/hooks/prepare-commit-msg.js",
+    "commit-msg": "./.git/hooks/commit-msg.js",
+    "post-rewrite": "./.git/hooks/post-rewrite.js",
+    "post-commit": "./.git/hooks/post-commit.js",
+    "post-checkout": "./.git/hooks/post-checkout.js"
+  },
   "version": "0.0.0-development",
   "description": "Get random spiritist books",
   "main": "dist/index.js",
