@@ -9,7 +9,8 @@
     "post-commit": "./.git/hooks/post-commit.js",
     "post-checkout": "./.git/hooks/post-checkout.js",
     "post-merge": "./.git/hooks/post-merge.js",
-    "pre-rebase": "./.git/hooks/pre-rebase.js"
+    "pre-rebase": "./.git/hooks/pre-rebase.js",
+    "pre-push": "./.git/hooks/pre-push.js"
   },
   "version": "0.0.0-development",
   "description": "Get random spiritist books",
