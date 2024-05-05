@@ -74,9 +74,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npm run cover && npm run check-coverage"
     }
   },
   "release": {
