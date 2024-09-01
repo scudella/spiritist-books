@@ -11,11 +11,13 @@
     "test": "mocha src/index.test.js",
     "cover": "nyc --reporter=lcov --reporter=text-summary npm t",
     "prebuild": "rimraf dist",
-    "build": "npm-run-all --parallel build:*",
+    "build": "npm-run-all --parallel build:* && npm run replace",
     "build:main": "babel src --copy-files --out-dir dist --ignore '*.test.js'",
     "build:cjs": "babel src/index.js --out-file dist/index.cjs",
+    "build:cjs2": "babel src/spiritist-books.js --out-file dist/spiritist-books.cjs",
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.min.js",
+    "replace": "bash scripts/replace-js-cjs.sh",
     "semantic-release": "semantic-release"
   },
   "repository": {
