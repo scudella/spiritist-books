@@ -12,7 +12,8 @@
     "cover": "nyc --reporter=lcov --reporter=text-summary npm t",
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
-    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build:main": "babel src --copy-files --out-dir dist --ignore '*.test.js'",
+    "build:cjs": "babel src/index.js --out-file dist/index.cjs",
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.min.js",
     "semantic-release": "semantic-release"
@@ -40,13 +41,11 @@
     "unique-random-array": "3.0.0"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-core": "6.26.3",
-    "babel-loader": "6.3.2",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-es2015": "6.24.1",
-    "babel-preset-stage-2": "6.24.1",
-    "babel-register": "6.26.0",
+    "@babel/cli": "7.25.6",
+    "@babel/core": "7.25.2",
+    "@babel/preset-env": "7.25.4",
+    "@babel/register": "7.24.6",
+    "babel-loader": "9.1.3",
     "chai": "4.3.6",
     "commitizen": "4.2.5",
     "core-js": "3.25.2",
@@ -57,7 +56,8 @@
     "nyc": "15.1.0",
     "rimraf": "3.0.2",
     "semantic-release": "19.0.5",
-    "webpack": "1.13.1"
+    "webpack": "5.94.0",
+    "webpack-cli": "5.1.4"
   },
   "config": {
     "commitizen": {
@@ -82,9 +82,12 @@
   ],
   "babel": {
     "presets": [
-      "env",
-      "es2015",
-      "stage-2"
+      [
+        "@babel/preset-env",
+        {
+          "modules": "commonjs"
+        }
+      ]
     ]
   }
 }
