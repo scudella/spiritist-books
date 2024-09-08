@@ -70,7 +70,7 @@ export const spiritistBooks = [
     index: 1,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/c1765994cef103188f3a341ddbccb76f',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830086/book-covers/parnaso_wcpgdi.jpg',
   },
   {
     title: 'Cartas de uma morta',
@@ -86,7 +86,7 @@ export const spiritistBooks = [
     index: 2,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/a2bcbd98a50dadd02acd81824ab4105d',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830083/book-covers/cartasdeumamorta_zfwj33.jpg',
   },
   {
     title: 'Palavras do infinito',
@@ -116,7 +116,7 @@ export const spiritistBooks = [
     index: 3,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/f431ece7387c4b10b69acb57a3eaf06b',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725834991/book-covers/palavrasdoinfinito_tnmhwl.jpg',
   },
   {
     title: 'Crônicas de além túmulo',
@@ -132,7 +132,7 @@ export const spiritistBooks = [
     index: 4,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/e48a9e88090b28de13d8517b32e1d6d5',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830083/book-covers/cronicasdealemtumulo_xqxnol.jpg',
   },
   {
     title: 'Emmanuel',
@@ -148,7 +148,7 @@ export const spiritistBooks = [
     index: 5,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/cfe5344e836578f5b2cf978ff40c9a9b',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830083/book-covers/emmanuel_u5q4g5.jpg',
   },
   {
     title: 'Brasil, coração do mundo, pátria do evangelho',
@@ -164,7 +164,7 @@ export const spiritistBooks = [
     index: 6,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/775db63e556d62b2297595b40514d228',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830083/book-covers/brasilcoracaodomundo_cwdxgc.gif',
   },
   {
     title: 'Lira imortal',
@@ -198,7 +198,7 @@ export const spiritistBooks = [
     index: 7,
     verified: false,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/562ee5ce98e5d549c135f122694de6f7',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725835574/book-covers/liraimortal_owualv.jpg',
   },
   {
     title: 'A caminho da luz',
@@ -214,7 +214,7 @@ export const spiritistBooks = [
     index: 8,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/b6657c9a456fa9123a14ee3848b3302f',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830082/book-covers/acaminhodaluz_ea9rpo.gif',
   },
   {
     title: 'Novas mensagens',
@@ -230,7 +230,7 @@ export const spiritistBooks = [
     index: 9,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/97dfac3d5fa7aa4595380f3af2015dd2',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830085/book-covers/novasmensagens_pda4bk.gif',
   },
   {
     title: 'Há dois mil anos',
@@ -246,7 +246,7 @@ export const spiritistBooks = [
     index: 10,
     verified: true,
     originalCover:
-      'https://asset.cloudinary.com/dzd9hs8by/f3b25213c1093355c9031d691c877153',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725835837/book-covers/2000mil_uizc17.gif',
   },
   {
     title: 'Cinquenta anos depois',
