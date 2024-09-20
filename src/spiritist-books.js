@@ -261,6 +261,8 @@ export const spiritistBooks = [
     isbn13: ['978 - 8573286984'],
     index: 11,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870137/book-covers/cinquentaanosdepois_vtesdv.gif',
   },
   {
     title: 'Cartas do evangelho',
@@ -275,6 +277,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573602036'],
     index: 12,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870213/book-covers/cartasdoevangelho_cxagrj.jpg',
   },
   {
     title: 'O consolador',
@@ -289,6 +293,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287813', '978-8573288773'],
     index: 13,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870246/book-covers/oconsolador_t4ac6a.jpg',
   },
   {
     title: 'Boa nova',
@@ -303,6 +309,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287950'],
     index: 14,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870289/book-covers/boanova_o4ch4g.jpg',
   },
   {
     title: 'Paulo e Estevão',
@@ -317,6 +325,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573286960'],
     index: 15,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870321/book-covers/pauloeestevao_lcpnfz.jpg',
   },
   {
     title: 'Renúncia',
@@ -331,6 +341,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287004', '978-8573289053'],
     index: 16,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870364/book-covers/renuncia_kjuy4w.jpg',
   },
   {
     title: 'Reportagens de além túmulo',
@@ -345,6 +357,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288223'],
     index: 17,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870401/book-covers/reportagensdealemtumulo_lw2tpc.jpg',
   },
   {
     title: 'Cartilha da natureza',
@@ -359,6 +373,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704457'],
     index: 18,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870437/book-covers/cartilhadanatureza_dlz7vm.jpg',
   },
   {
     title: 'Nosso Lar',
@@ -373,6 +389,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573289442', '978-8573288452'],
     index: 19,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870489/book-covers/nossolar_avvo01.gif',
   },
   {
     title: 'Os mensageiros',
@@ -387,6 +405,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287943', '978-8573288469'],
     index: 20,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726870522/book-covers/osmensageiros_decmw0.jpg',
   },
   {
     title: 'Missionários da luz',
@@ -401,6 +421,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288018'],
     index: 21,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873162/book-covers/missionariosdaluz_x3jn08.gif',
   },
   {
     title: 'Coletânea do além',
@@ -431,6 +453,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573601442'],
     index: 22,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873213/book-covers/coletaneasdoalem_h2zk15.jpg',
   },
   {
     title: 'Lázaro redivivo',
@@ -445,6 +469,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287974'],
     index: 23,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873245/book-covers/lazaroredivivo_ghklir.jpg',
   },
   {
     title: 'Obreiros da vida eterna',
@@ -459,6 +485,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288209', '978-8573288483'],
     index: 24,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873275/book-covers/obreirosdavidaeterna_tm4rvz.jpg',
   },
   {
     title: 'O caminho oculto',
@@ -473,6 +501,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 25,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873304/book-covers/ocaminhooculto_qbhtyh.jpg',
   },
   {
     title: 'Os filhos do grande rei',
@@ -487,6 +517,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 26,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873341/book-covers/osfilhosdogranderei_mqyfqd.jpg',
   },
   {
     title: 'Mensagens do pequeno morto',
@@ -501,6 +533,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573281040'],
     index: 27,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873372/book-covers/mensagensdopequenomorto_ddymv4.jpg',
   },
   {
     title: 'História de Maricota',
@@ -515,6 +549,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 28,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873448/book-covers/historiademaricota_zv8lyr.jpg',
   },
   {
     title: 'Jardim da infância',
@@ -529,6 +565,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 29,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873477/book-covers/jardimdainfancia_yanfmo.jpg',
   },
   {
     title: 'Volta Bocage',
@@ -543,6 +581,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 30,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726873800/book-covers/voltabocage_u8jo45.jpg',
   },
   {
     title: 'No mundo maior',
@@ -557,6 +597,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287837'],
     index: 31,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874185/book-covers/nomundomaior_viysgu.gif',
   },
   {
     title: 'Agenda cristã',
@@ -571,6 +613,8 @@ export const spiritistBooks = [
     isbn13: ['978-8594660350'],
     index: 32,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874199/book-covers/agendacrista_knx7l7.jpg',
   },
   {
     title: 'Luz acima',
@@ -585,6 +629,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573286038'],
     index: 33,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874217/book-covers/luzacima_c7buuk.jpg',
   },
   {
     title: 'Voltei',
@@ -599,6 +645,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573285802'],
     index: 34,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874233/book-covers/voltei_lirjao.jpg',
   },
   {
     title: 'Alvorada Cristã',
@@ -613,6 +661,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573286519'],
     index: 35,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874259/book-covers/alvoradacrista_e8e48o.gif',
   },
   {
     title: 'Caminho, verdade e vida',
@@ -627,6 +677,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288964'],
     index: 36,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874279/book-covers/caminhoverdadeevida_soqfjp.jpg',
   },
   {
     title: 'Libertação',
@@ -641,6 +693,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288186', '978-8573288506'],
     index: 37,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874296/book-covers/libertacao_qmytdl.jpg',
   },
   {
     title: 'Jesus no lar',
@@ -655,6 +709,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573285925', '978-8573288766'],
     index: 38,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874314/book-covers/jesusnolar_r8yg2a.gif',
   },
   {
     title: 'Pão nosso',
@@ -669,6 +725,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704150'],
     index: 39,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874330/book-covers/paonosso_tlofer.jpg',
   },
   {
     title: 'Nosso livro',
@@ -712,6 +770,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 40,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874347/book-covers/nossolivro_zdtdfy.jpg',
   },
   {
     title: 'Pontos e contos',
@@ -726,6 +786,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287981'],
     index: 41,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874904/book-covers/pontosecontos_zmtryg.jpg',
   },
   {
     title: 'Falando à terra',
@@ -781,6 +843,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704969'],
     index: 42,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874923/book-covers/falandoaterra_mkcq6j.jpg',
   },
   {
     title: 'Páginas do Coração',
@@ -795,6 +859,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 43,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874942/book-covers/paginasdocoracao_xc9xlz.jpg',
   },
   {
     title: 'Vinha de luz',
@@ -809,6 +875,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573289060'],
     index: 44,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874958/book-covers/vinhadeluz_ew1lrk.gif',
   },
   {
     title: 'Pérolas do além',
@@ -823,6 +891,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 45,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726874979/book-covers/perolasdoalem_gvnani.jpg',
   },
   {
     title: 'Roteiro',
@@ -837,6 +907,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287219', '978-8573288803'],
     index: 46,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726875001/book-covers/roteiro_azfrlt.jpg',
   },
   {
     title: 'Pai nosso',
@@ -851,6 +923,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573285543'],
     index: 47,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726875022/book-covers/painosso_o1s7sy.jpg',
   },
   {
     title: 'Cartas do coração',
@@ -911,6 +985,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573601312'],
     index: 48,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726875042/book-covers/cartasdocoracao_hmkhwz.jpg',
   },
   {
     title: 'Gotas de Luz',
@@ -925,6 +1001,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573285259'],
     index: 49,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726875059/book-covers/gotasdeluz_isloe5.jpg',
   },
   {
     title: 'Ave, Cristo!',
@@ -939,6 +1017,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573286991'],
     index: 50,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726875084/book-covers/avecristo_hw8zxa.jpg',
   },
   {
     title: 'Entre a Terra e o Céu',
