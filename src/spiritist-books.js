@@ -1033,6 +1033,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288056'],
     index: 51,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950144/book-covers/entreaterraeoceu_xr5lb4.jpg',
   },
   {
     title: 'Palavras de Emmanuel',
@@ -1047,6 +1049,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288131', '978-8573288380'],
     index: 52,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950169/book-covers/palavrasdeemmanuel_qebjtg.jpg',
   },
   {
     title: 'Nos domínios da mediunidade',
@@ -1061,6 +1065,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573289435'],
     index: 53,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950429/book-covers/nosdominiosdamediunidade_csje8e.jpg',
   },
   {
     title: 'Instruções Psicofônicas',
@@ -1127,6 +1133,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288100', '978-8584850181'],
     index: 54,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950455/book-covers/instrucoespsicofonicas_qkgrjt.jpg',
   },
   {
     title: 'Fonte viva',
@@ -1141,6 +1149,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704198'],
     index: 55,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950476/book-covers/fonteviva_huhzxa.gif',
   },
   {
     title: 'Ação e reação',
@@ -1155,6 +1165,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287929'],
     index: 56,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950493/book-covers/acaoereacao_ygfqpb.gif',
   },
   {
     title: 'Vozes do grande além',
@@ -1224,6 +1236,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 57,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950517/book-covers/vozesdograndealem_m3y6rw.jpg',
   },
   {
     title: 'Contos e apólogos',
@@ -1238,6 +1252,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288063'],
     index: 58,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950538/book-covers/contoseapologos_l4zugl.jpg',
   },
   {
     title: 'Pensamento e vida',
@@ -1252,6 +1268,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288032'],
     index: 59,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950558/book-covers/pensamentoevida_sxi7zl.jpg',
   },
   {
     title: 'Evolução em dois mundos',
@@ -1266,6 +1284,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288049'],
     index: 60,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726950578/book-covers/evolucaoemdoismundos_knnytc.jpg',
   },
   {
     title: 'Mecanismos da mediunidade',
@@ -1280,6 +1300,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287936'],
     index: 61,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951259/book-covers/mecanismosdameduinidade_k15ssu.gif',
   },
   {
     title: 'Evangelho em casa',
@@ -1294,6 +1316,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573281255'],
     index: 62,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951282/book-covers/evangelhoemcasa_m0c6oh.jpg',
   },
   {
     title: 'Religião dos espíritos',
@@ -1308,6 +1332,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287134', '978-8579453915'],
     index: 63,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951300/book-covers/religiaodosespiritos_ypr59s.jpg',
   },
   {
     title: 'A vida escreve',
@@ -1322,6 +1348,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 64,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951318/book-covers/avidaescreve_djmrb9.jpg',
   },
   {
     title: 'Almas em desfile',
@@ -1336,6 +1364,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 65,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951336/book-covers/almasemdesfile_fg9jm8.jpg',
   },
   {
     title: 'Seara dos médiuns',
@@ -1350,6 +1380,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287509'],
     index: 66,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951354/book-covers/searadosmediuns_azto6r.jpg',
   },
   {
     title: 'Juca Lambisca',
@@ -1364,6 +1396,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 67,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951378/book-covers/jucalambisca_udug4k.jpg',
   },
   {
     title: 'O espírito da verdade',
@@ -1398,6 +1432,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 68,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951401/book-covers/oespiritodaverdade_orhiyk.jpg',
   },
   {
     title: 'Justiça divina',
@@ -1412,6 +1448,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 69,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951426/book-covers/justicadivina_dmkigp.jpg',
   },
   {
     title: 'Cartilha do bem',
@@ -1426,6 +1464,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573284690'],
     index: 70,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951426/book-covers/justicadivina_dmkigp.jpg',
   },
   {
     title: 'Relicário de luz',
@@ -1493,6 +1533,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 71,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952047/book-covers/relicariodeluz_yq02ot.jpg',
   },
   {
     title: 'Timbolão',
@@ -1507,6 +1549,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 72,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952067/book-covers/timbolao_sf6kgr.jpg',
   },
   {
     title: 'Antologia dos imortais',
@@ -1633,6 +1677,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573283013'],
     index: 73,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952086/book-covers/antologiadosimortais_ainqpr.jpg',
   },
   {
     title: 'Ideal espírita',
@@ -1666,6 +1712,8 @@ export const spiritistBooks = [
     isbn13: ['978-8569452737'],
     index: 74,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952102/book-covers/idealespirita_hefi4r.jpg',
   },
   {
     title: 'Leis de amor',
@@ -1680,6 +1728,8 @@ export const spiritistBooks = [
     isbn13: ['978-65-89699064'],
     index: 75,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952121/book-covers/leisdeamor_ziwpno.jpg',
   },
   {
     title: 'Opinião Espírita',
@@ -1694,6 +1744,8 @@ export const spiritistBooks = [
     isbn13: ['978-8599772324'],
     index: 76,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952164/book-covers/opiniaoespirita_h3j8yl.jpg',
   },
   {
     title: 'Sexo e destino',
@@ -1708,6 +1760,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287820'],
     index: 77,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952194/book-covers/sexoedestino_n6aogj.gif',
   },
   {
     title: 'Desobsessão',
@@ -1722,6 +1776,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 78,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952216/book-covers/desobsessao_jrxazx.jpg',
   },
   {
     title: 'Contos desta e doutra vida',
@@ -1736,6 +1792,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288070', '978-8573288711'],
     index: 79,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952239/book-covers/contosdestaedoutravida_miliuu.jpg',
   },
   {
     title: 'Livro da esperança',
@@ -1750,6 +1808,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704945'],
     index: 80,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726952258/book-covers/livrodaesperanca_kuwizf.gif',
   },
   {
     title: 'Dicionário da alma',
@@ -1914,6 +1974,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 81,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726953998/book-covers/dicionariodaalma_guuvfd.jpg',
   },
   {
     title: 'Trovadores do além',
@@ -2031,6 +2093,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573283006'],
     index: 82,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954024/book-covers/trovadoresdoalem_ipc5qy.jpg',
   },
   {
     title: 'Palavras de vida eterna',
@@ -2045,6 +2109,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704686'],
     index: 83,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954050/book-covers/palavrasdevidaeterna_reehj1.jpg',
   },
   {
     title: 'Estude e Viva',
@@ -2059,6 +2125,8 @@ export const spiritistBooks = [
     isbn13: ['978-857328759-2', '978-857328901-5'],
     index: 84,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954070/book-covers/estudeeviva_wm3ebn.jpg',
   },
   {
     title: 'O espírito de Cornélio Pires',
@@ -2073,6 +2141,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573282917'],
     index: 85,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954097/book-covers/oespiritodecorneliopires_p0hlrf.jpg',
   },
   {
     title: 'Entre irmãos de outras terras',
@@ -2097,6 +2167,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555702682'],
     index: 86,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954116/book-covers/entreirmaosdeoutrasterras_bow65y.jpg',
   },
   {
     title: 'Cartas e crônicas',
@@ -2111,6 +2183,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288162'],
     index: 87,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954132/book-covers/cartasecronicas_xxnp3z.jpg',
   },
   {
     title: 'Antologia mediúnica do natal',
@@ -2153,6 +2227,8 @@ export const spiritistBooks = [
     isbn13: ['978-8594660428'],
     index: 88,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954157/book-covers/antologiamediunicadonatal_apefjz.jpg',
   },
   {
     title: 'Caminho Espírita',
@@ -2177,6 +2253,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573416831'],
     index: 89,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954175/book-covers/caminhoespirita_e9h2h1.jpg',
   },
   {
     title: 'Encontro marcado',
@@ -2191,6 +2269,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288025', '978-8573288742'],
     index: 90,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954207/book-covers/encontromarcado_coa8pr.jpg',
   },
   {
     title: 'No portal da luz',
@@ -2205,6 +2285,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573417258'],
     index: 91,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954760/book-covers/noportaldaluz_eqe5in.jpg',
   },
   {
     title: 'Trovas do outro mundo',
@@ -2271,6 +2353,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287158'],
     index: 92,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954781/book-covers/trovasdooutromundo_mliner.jpg',
   },
   {
     title: 'E a vida continua...',
@@ -2285,6 +2369,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573288216'],
     index: 93,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954807/book-covers/eavidacontinua_beylqu.jpg',
   },
   {
     title: 'Luz no lar',
@@ -2333,6 +2419,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573286410', '978-8569452003'],
     index: 94,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954828/book-covers/luznolar_uzcjvv.jpg',
   },
   {
     title: 'À luz da oração',
@@ -2377,6 +2465,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573571387'],
     index: 95,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954851/book-covers/aluzdaoracao_yfmov2.jpg',
   },
   {
     title: 'Orvalho de luz',
@@ -2442,6 +2532,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 96,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954873/book-covers/orvalhodeluz_jr1mvd.jpg',
   },
   {
     title: 'Passos da vida',
@@ -2462,6 +2554,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573416916'],
     index: 97,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954890/book-covers/passosdavida_tqdfaw.jpg',
   },
   {
     title: 'Estantes da vida',
@@ -2476,6 +2570,8 @@ export const spiritistBooks = [
     isbn13: ['978-857326014', '978-8573288759'],
     index: 98,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954907/book-covers/estantedavida_hwjs0k.jpg',
   },
   {
     title: 'Alma e coração',
@@ -2490,6 +2586,8 @@ export const spiritistBooks = [
     isbn13: ['978-8531500084'],
     index: 99,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954929/book-covers/almaecoracao_xoo59q.jpg',
   },
   {
     title: 'Poetas redivivos',
@@ -2562,6 +2660,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704853'],
     index: 100,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726954953/book-covers/poetasredivivos_iczynu.jpg',
   },
   {
     title: 'Idéias e Ilustrações',
@@ -2576,6 +2676,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573284881'],
     index: 101,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726955814/book-covers/ideiaseilustracoes_jqbd6i.jpg',
   },
   {
     title: 'Paz e renovação',
@@ -2596,6 +2698,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573410884'],
     index: 102,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726955837/book-covers/pazerenovacao_guv4dy.jpg',
   },
   {
     title: 'Vida e sexo',
@@ -2610,6 +2714,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573285604'],
     index: 103,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726955868/book-covers/vidaesexo_fawlea.gif',
   },
   {
     title: 'Mais luz',
@@ -2624,6 +2730,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 104,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726955892/book-covers/maisluz_mgr0ak.jpg',
   },
   {
     title: 'Correio fraterno',
@@ -2655,6 +2763,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573281705'],
     index: 105,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726955914/book-covers/correiofraterno_z7lafu.jpg',
   },
   {
     title: 'Trovas do mais além',
@@ -2729,6 +2839,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 106,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726956134/book-covers/trovasdomaisalem_tnsvdw.jpg',
   },
   {
     title: 'Bênção de paz',
@@ -2743,6 +2855,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460134'],
     index: 107,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726956154/book-covers/bencaodepaz_bkqgnf.jpg',
   },
   {
     title: 'Mãe',
@@ -2811,6 +2925,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 108,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726956172/book-covers/mae_g8xdq8.jpg',
   },
   {
     title: 'Antologia da espiritualidade',
@@ -2825,6 +2941,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573283266', '978-8573289510'],
     index: 109,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726956197/book-covers/antologiadaespiritualidade_rfhlkg.jpg',
   },
   {
     title: 'Rumo certo',
@@ -2839,6 +2957,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573287226'],
     index: 110,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726956218/book-covers/rumocerto_gsknny.jpg',
   },
   {
     title: 'Pinga fogo - I',
@@ -2853,6 +2973,8 @@ export const spiritistBooks = [
     isbn13: ['978-8560960019'],
     index: 111,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962441/book-covers/pingafogo1_yjtifk.jpg',
   },
   {
     title: 'Coragem',
@@ -2874,6 +2996,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555704990'],
     index: 112,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962473/book-covers/coragem_rgsxaq.jpg',
   },
   {
     title: 'Sinal Verde',
@@ -2881,13 +3005,15 @@ export const spiritistBooks = [
     spiritualAuthors: ['André Luiz'],
     yearPsychography: ['1971'],
     originalPublisher: 'CEC',
-    publishedYear: '',
+    publishedYear: '1971',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'CEC',
+    isbn10: ['6555705183'],
+    isbn13: ['978-6555705188'],
     index: 113,
-    verified: false,
+    verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962497/book-covers/sinalverde_rzv0px.jpg',
   },
   {
     title: 'Entrevistas',
@@ -2895,27 +3021,31 @@ export const spiritistBooks = [
     spiritualAuthors: ['Emmanuel'],
     yearPsychography: ['1971'],
     originalPublisher: 'ide',
-    publishedYear: '',
+    publishedYear: '1971',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'ide',
+    isbn10: ['8573413433'],
+    isbn13: ['978-8573413434'],
     index: 114,
-    verified: false,
+    verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962519/book-covers/entrevistas_sym5pe.jpg',
   },
   {
     title: 'Chico Xavier - dos hippies aos problemas do mundo',
     authors: ['Francisco Cândido Xavier'],
-    spiritualAuthors: ['Diversos'],
+    spiritualAuthors: ['Emmanuel', 'Castro Alves'],
     yearPsychography: ['1971'],
     originalPublisher: 'FEESP',
-    publishedYear: '',
+    publishedYear: '1972',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'LAKE',
+    isbn10: ['8573601450'],
+    isbn13: ['978-8573601459'],
     index: 115,
-    verified: false,
+    verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962543/book-covers/doshippesaosproblemasdomundo_aleg7m.jpg',
   },
   {
     title: 'Através do tempo',
@@ -2958,10 +3088,12 @@ export const spiritistBooks = [
     publishedYear: '1972',
     copyright: '',
     currentPublisher: 'LAKE',
-    isbn10: [],
-    isbn13: [],
+    isbn10: ['8573600616'],
+    isbn13: ['978-8573600612'],
     index: 116,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962561/book-covers/atravesdotempo_wpt9az.jpg',
   },
   {
     title: 'Mãos unidas',
@@ -2969,55 +3101,139 @@ export const spiritistBooks = [
     spiritualAuthors: ['Emmanuel'],
     yearPsychography: ['1972'],
     originalPublisher: 'ide',
-    publishedYear: '',
+    publishedYear: '1972',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'ide',
+    isbn10: ['8573412291'],
+    isbn13: ['978-8573412291'],
     index: 117,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962579/book-covers/maosunidas_faruow.jpg',
   },
   {
     title: 'Taça de luz',
     authors: ['Francisco Cândido Xavier'],
-    spiritualAuthors: ['Diversos'],
-    yearPsychography: ['1972'],
+    spiritualAuthors: [
+      'Pedro D´ Alcântara',
+      'João de Deus',
+      'Cruz e Souza',
+      'Bezerra de Menezes',
+      'Emmanuel',
+      'André Luiz',
+      'Camilo de Mattos',
+      'Irmão X',
+      'Therezinha',
+      'Auta de Souza',
+      'Olavo Bilac',
+      'Scheilla',
+      'Meimei',
+      'Antony Leon',
+      'Souza Lobo',
+      'Agostinho',
+      'Maria Dolores',
+      'Casimiro Cunha',
+      'S. Lasneau',
+    ],
+    yearPsychography: [
+      '1937',
+      '1942',
+      '1944',
+      '1947',
+      '1950',
+      '1951',
+      '1952',
+      '1953',
+      '1954',
+      '1955',
+      '1956',
+      '1957',
+      '1958',
+      '1967',
+      '1971',
+      '1972',
+    ],
     originalPublisher: 'FEESP',
-    publishedYear: '',
+    publishedYear: '1972',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'LAKE',
+    isbn10: ['8573601469'],
+    isbn13: ['978-8573601466'],
     index: 118,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962605/book-covers/tacadeluz_lfkm7q.jpg',
   },
   {
     title: 'Chico Xavier pede licença',
-    authors: ['Francisco Cândido Xavier'],
-    spiritualAuthors: ['Diversos'],
+    authors: ['Francisco Cândido Xavier', 'José Herculano Pires'],
+    spiritualAuthors: [
+      'Emmanuel',
+      'Ricardo Gonçalves',
+      'Cornélio Pires',
+      'Maria Dolores',
+      'Figueiredo Silva',
+      'Antero de Quental',
+      'Castro Alves',
+      'Pedro D’Alcantara',
+      'José Albano',
+      'Pedro Silva',
+      'S. Lasneau',
+      'Oscar Batista',
+      'José Nava',
+      'Lívio Barretto',
+      'Ulysses Bezerra',
+      'Celeste Jaguaribe',
+      'Auta de Souza',
+      'Antônio Castro',
+      'Batuíra',
+      'Irene de Souza Pinto',
+      'Eugênio Rubião',
+      'Casimiro Cunha',
+      'Augusto Coelho',
+      'Deraldo Neville',
+      '',
+    ],
     yearPsychography: ['1972'],
     originalPublisher: 'Geem',
-    publishedYear: '',
+    publishedYear: '1972',
     copyright: '',
-    currentPublisher: '',
+    currentPublisher: 'Geem',
     isbn10: [],
     isbn13: [],
     index: 119,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962628/book-covers/chicoxavierpedelicenca_u6yiiz.jpg',
   },
   {
     title: 'Mãos marcadas',
     authors: ['Francisco Cândido Xavier'],
-    spiritualAuthors: ['Diversos'],
+    spiritualAuthors: [
+      'Maria Dolores',
+      'Emmanuel',
+      'André Luiz',
+      'Albino Teixeira',
+      'Antônio Americano do Brasil',
+      'Casimiro Cunha',
+      'Nina Arueira',
+      'Scheilla',
+      'Irene Souza Pinto',
+      'Cornélio Pires',
+      'Carmem Cinira',
+      '',
+    ],
     yearPsychography: ['1972'],
     originalPublisher: 'ide',
-    publishedYear: '',
+    publishedYear: '1972',
     copyright: '',
-    currentPublisher: '',
-    isbn10: [],
-    isbn13: [],
+    currentPublisher: 'ide',
+    isbn10: ['6586112400'],
+    isbn13: ['978-6586112405'],
     index: 120,
-    verified: false,
+    verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726962654/book-covers/maosmarcadas_n3pk5z.jpg',
   },
   {
     title: 'Natal de Sabina',
