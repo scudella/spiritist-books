@@ -1465,7 +1465,7 @@ export const spiritistBooks = [
     index: 70,
     verified: true,
     originalCover:
-      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951426/book-covers/justicadivina_dmkigp.jpg',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1726951449/book-covers/cartilhadobem_bdxy7o.jpg',
   },
   {
     title: 'Relicário de luz',
