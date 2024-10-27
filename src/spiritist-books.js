@@ -3573,6 +3573,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460202'],
     index: 131,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729982590/book-covers/dialogodosvivos_uu7zte.jpg',
   },
   {
     title: 'Calendário espírita',
@@ -3633,6 +3635,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573660982'],
     index: 132,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729982748/book-covers/calendarioespirita_zxkxbb.jpg',
   },
   {
     title: 'Instrumentos do tempo',
@@ -3647,6 +3651,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 133,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729982825/book-covers/instrumentosdotempo_sztra2.jpg',
   },
   {
     title: 'Respostas da Vida',
@@ -3661,6 +3667,8 @@ export const spiritistBooks = [
     isbn13: ['978-8562674037'],
     index: 134,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729982920/book-covers/respostasdavida_au3jps.jpg',
   },
   {
     title: 'Jovens no além',
@@ -3680,6 +3688,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460226'],
     index: 135,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729982978/book-covers/jovensnoalem_v3ijei.jpg',
   },
   {
     title: 'Conversa firme',
@@ -3694,6 +3704,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573410631'],
     index: 136,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729983110/book-covers/conversafirme_djezok.jpg',
   },
   {
     title: 'A terra e o semeador',
@@ -3708,6 +3720,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573413311'],
     index: 137,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729983160/book-covers/aterraeosemeador_eoatns.jpg',
   },
   {
     title: 'Chão de flores',
@@ -3782,6 +3796,8 @@ export const spiritistBooks = [
     isbn13: ['978-8562674082'],
     index: 138,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729983213/book-covers/chaodeflores_xpmjmb.jpg',
   },
   {
     title: 'Caminhos de volta',
@@ -3806,6 +3822,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460165'],
     index: 139,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729983254/book-covers/caminhosdevolta_nnvxwi.jpg',
   },
   {
     title: 'O esperanto como revelação',
@@ -3820,6 +3838,8 @@ export const spiritistBooks = [
     isbn13: ['978-8599995235'],
     index: 140,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1729983337/book-covers/oesperantocomorevelacao_ssrzbs.jpg',
   },
   {
     title: 'Busca e Acharás',
