@@ -4129,7 +4129,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460035'],
     index: 153,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274559/book-covers/momentosdeouro_wohy0u.jpg',
   },
   {
     title: 'Amor e Luz',
@@ -4144,7 +4145,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 154,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274596/book-covers/amoreluz_hb56uu.jpg',
   },
   {
     title: 'Coisas deste mundo',
@@ -4159,7 +4161,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573571165'],
     index: 155,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274651/book-covers/coisasdestemundo_mkkpgv.jpg',
   },
   {
     title: 'Chico Xavier em Goiânia',
@@ -4174,7 +4177,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 156,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274693/book-covers/chicoxavieremgoiania_jitz0b.jpg',
   },
   {
     title: 'Luz bendita',
@@ -4189,7 +4193,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 157,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274728/book-covers/luzbendita_ngtbvt.jpg',
   },
   {
     title: 'Amor sem adeus',
@@ -4204,7 +4209,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573414233'],
     index: 158,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274773/book-covers/amorsemadeus_rldkuk.jpg',
   },
   {
     title: 'Recados do além',
@@ -4219,7 +4225,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 159,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274800/book-covers/recadosdoalem_s5rxli.jpg',
   },
   {
     title: 'Enxugando lágrimas',
@@ -4247,7 +4254,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 160,
     verified: true,
-    originalCover: '',
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1731274836/book-covers/enxugandolagrimas_bcelhs.jpg',
   },
   {
     title: 'Coração e vida',
