@@ -6917,6 +6917,8 @@ export const spiritistBooks = [
     isbn13: ['978-8573411331'],
     index: 251,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471500/book-covers/viajor_ypzm7q.jpg',
   },
   {
     title: 'Loja de Alegria',
@@ -6931,6 +6933,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460554'],
     index: 252,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471528/book-covers/lojadealegria_zuf27u.jpg',
   },
   {
     title: 'Esperança e vida',
@@ -6971,6 +6975,8 @@ export const spiritistBooks = [
     isbn13: ['978-8562674334'],
     index: 253,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471565/book-covers/esperancaevida_mmtqmc.jpg',
   },
   {
     title: 'Espera servindo',
@@ -6985,6 +6991,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460417'],
     index: 254,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471603/book-covers/esperaservindo_yw74qc.jpg',
   },
   {
     title: 'Neste instante',
@@ -6999,6 +7007,8 @@ export const spiritistBooks = [
     isbn13: ['978-8570460608'],
     index: 255,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471661/book-covers/nesteinstante_cui4ux.jpg',
   },
   {
     title: 'Educandário de luz',
@@ -7026,6 +7036,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555702934', '978-6555702927'],
     index: 256,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471703/book-covers/educandariodeluz_qkakpt.jpg',
   },
   {
     title: 'Tão fácil',
@@ -7090,6 +7102,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 257,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471742/book-covers/taofacil_hcigs5.jpg',
   },
   {
     title: 'Amor e saudade',
@@ -7117,6 +7131,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 258,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471790/book-covers/amoresaudade_krmhfg.jpg',
   },
   {
     title: 'Caravana de amor',
@@ -7144,6 +7160,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 259,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471840/book-covers/caravanadeamor_hds4aw.jpg',
   },
   {
     title: 'Jóia',
@@ -7158,6 +7176,8 @@ export const spiritistBooks = [
     isbn13: ['978-8594664570'],
     index: 260,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1763471866/book-covers/joia_fgegkx.jpg',
   },
   {
     title: 'Bazar da vida',
