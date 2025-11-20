@@ -48,7 +48,7 @@ jobs:
         id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run semantic-release --plugins '["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/github"]'
+        run: npx semantic-release --plugins '["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/github"]'
       - name: Publish to npm
         # Only run this if a new release was actually created
         if: steps.release.outputs.new_release_tag != ''
