@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scudella/spiritist-books.git"
+    "url": "git+https://github.com/scudella/spiritist-books.git"
   },
   "keywords": [
     "random",
@@ -74,10 +74,14 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
       "@semantic-release/github"
     ],
     "publish": [
       "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/npm"
     ],
     "publishConfig": {
       "registry": "https://registry.npmjs.org/",
