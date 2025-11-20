@@ -49,10 +49,33 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx semantic-release
-          # This command captures the new release tag for use in the 'if' condition
-          TAG=$(git describe --tags --abbrev=0)
-          echo "new_release_tag=$TAG" >> $GITHUB_OUTPUT
+          # 1. Run semantic-release to determine the version and create GitHub release/tag.
+          # We capture the full JSON output into a variable.
+          RELEASE_OUTPUT=$(npx semantic-release --no-ci --dry-run)
+
+          # 2. Extract the next version number.
+          # If a release is detected, NEXT_VERSION will be set (e.g., 3.35.6)
+          # We use dry-run first to get the version, and then run it for real later.
+          NEXT_VERSION=$(echo "$RELEASE_OUTPUT" | grep 'The next release version is' | sed -E 's/.*The next release version is ([0-9]+\.[0-9]+\.[0-9]+).*/\1/')
+
+          if [ -n "$NEXT_VERSION" ]; then
+            echo "New version detected: $NEXT_VERSION. Running actual release..."
+            
+            # 3. CRITICAL: Manually update package.json file with the new version.
+            # Replace the old version line with the new one.
+            sed -i "s/\"version\": \"[0-9.]*-[a-z]*\"/\"version\": \"$NEXT_VERSION\"/" package.json
+            
+            # 4. Run semantic-release FOR REAL to create tag and GitHub release.
+
+            npx semantic-release
+            # This command captures the new release tag for use in the 'if' condition
+            TAG=$(git describe --tags --abbrev=0)
+            echo "new_release_tag=$TAG" >> $GITHUB_OUTPUT
+
+          else
+            echo "No new release necessary."
+            echo "new_release_tag=" >> $GITHUB_OUTPUT
+          fi
         # Publish to npm registry
       - name: Publish to npm
         # Only run this if a new release was actually created
