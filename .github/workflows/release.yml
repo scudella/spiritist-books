@@ -44,7 +44,15 @@ jobs:
       #          name: spiritist-books # optional
       #          fail_ci_if_error: true # optional (default = false)
       #          verbose: true # optional (default = false)
-      - name: Release
+      - name: Semantic Release (Versioning, GitHub Release)
+        id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run semantic-release
+        run: npm run semantic-release --plugins '["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/github"]'
+      - name: Publish to npm
+        # Only run this if a new release was actually created
+        if: steps.release.outputs.new_release_tag != ''
+        env:
+          # NODE_AUTH_TOKEN is already set by actions/setup-node@v4 with the OIDC token
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }} # No secret needed, but often defined to be safe.
+        run: npm publish --access public

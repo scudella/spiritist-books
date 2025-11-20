@@ -78,8 +78,7 @@
       "@semantic-release/github"
     ],
     "publish": [
-      "@semantic-release/github",
-      "@semantic-release/npm"
+      "@semantic-release/github"
     ],
     "publishConfig": {
       "registry": "https://registry.npmjs.org/",
