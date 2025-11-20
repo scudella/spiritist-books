@@ -21,7 +21,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: 'https://registry.npmjs.org/'
+          always-auth: true
       # Ensure npm 11.5.1 or later is installed
       - name: Update npm
         run: npm install -g npm@latest
@@ -33,14 +34,6 @@ jobs:
         run: npm run check-coverage
       - name: build
         run: npm run build
-      - name: Configure npm for OIDC
-        run: |
-          echo "registry=https://registry.npmjs.org" > ~/.npmrc
-          echo "always-auth=true" >> ~/.npmrc
-          echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       #      - name: Upload coverage reports to codecov
       #        uses: codecov/codecov-action@v3
       #        with:
