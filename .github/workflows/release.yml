@@ -5,7 +5,9 @@ on:
       - main
 permissions:
   id-token: write # Required for OIDC
-  contents: read
+  contents: write # Needed to push tags and create releases
+  pull-requests: write # Recommended – comments on PRs
+  issues: write # Recommended – comments on issues
 jobs:
   release:
     name: Release
