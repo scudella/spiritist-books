@@ -70,18 +70,22 @@
     "branches": [
       "main",
       "master"
-    ]
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ],
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org/",
+      "tag": "latest"
+    }
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
-  },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/npm",
-    "@semantic-release/github"
-  ],
   "babel": {
     "presets": [
       [

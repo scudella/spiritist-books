@@ -33,6 +33,14 @@ jobs:
         run: npm run check-coverage
       - name: build
         run: npm run build
+      - name: Configure npm for OIDC
+        run: |
+          echo "registry=https://registry.npmjs.org" > ~/.npmrc
+          echo "always-auth=true" >> ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       #      - name: Upload coverage reports to codecov
       #        uses: codecov/codecov-action@v3
       #        with:
