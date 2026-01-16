@@ -7879,7 +7879,7 @@ export const spiritistBooks = [
     index: 288,
     verified: true,
     originalCover:
-      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1768598159/book-covers/tendebomahttps://res.cloudinary.com/dzd9hs8by/image/upload/v1768598159/book-covers/tendebomanimo_uwdpql.jpgnimo_uwdpql.jpg',
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1768598159/book-covers/tendebomanimo_uwdpql.jpg',
   },
   {
     title: 'Doutrina e vida',
