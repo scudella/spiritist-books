@@ -10208,4 +10208,20 @@ export const spiritistBooks = [
     index: 431,
     verified: true,
   },
+  {
+    title: 'Dimensões espirituais do centro espírita',
+    authors: ['Suely Caldas Schubert'],
+    spiritualAuthors: [],
+    yearPsychography: [],
+    originalPublisher: 'FEB',
+    publishedYear: '2006',
+    copyright: '2006',
+    currentPublisher: 'FEB',
+    isbn10: [],
+    isbn13: ['978-8573285048'],
+    index: 432,
+    verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1777312204/book-covers/dimensoes-espirituais-centro-espirita_ongtch.jpg',
+  },
 ];
