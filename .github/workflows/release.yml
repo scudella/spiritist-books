@@ -23,9 +23,11 @@ jobs:
           node-version: '24'
           cache: npm
           registry-url: 'https://registry.npmjs.org/'
-      # Ensure npm 11.5.1 or later is installed
-      - name: Update npm
-        run: npm install -g npm@latest
+      - name: Show versions
+        run: |
+          node --version
+          npm --version
+          npm doctor || true
       - name: Debug npm config
         run: |
           npm config ls -l
