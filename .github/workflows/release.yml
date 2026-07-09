@@ -22,7 +22,6 @@ jobs:
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org/'
-          always-auth: true
       # Ensure npm 11.5.1 or later is installed
       - name: Update npm
         run: npm install -g npm@latest
@@ -33,7 +32,12 @@ jobs:
       - name: test check-coverage
         run: npm run check-coverage
       - name: build
-        run: npm run build
+        run: npm run build:main
+          npm run build:cjs
+          npm run build:cjs2
+          npm run build:umd
+          npm run build:umd.min
+          npm run replace
       #      - name: Upload coverage reports to codecov
       #        uses: codecov/codecov-action@v3
       #        with:
