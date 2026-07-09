@@ -149,6 +149,8 @@ export const spiritistBooks = [
     verified: true,
     originalCover:
       'https://res.cloudinary.com/dzd9hs8by/image/upload/v1725830083/book-covers/emmanuel_u5q4g5.jpg',
+    currentCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1783616334/book-covers-current/emmanuel_xrbydi.jpg',
   },
   {
     title: 'Brasil, coração do mundo, pátria do evangelho',
