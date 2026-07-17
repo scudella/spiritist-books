@@ -322,7 +322,7 @@ export const spiritistBooks = [
     originalPublisher: 'FEB',
     publishedYear: '1942',
     copyright: '1941',
-    currentPublisher: '',
+    currentPublisher: 'FEB',
     isbn10: ['8573286962'],
     isbn13: ['978-8573286960'],
     index: 15,
@@ -1062,7 +1062,7 @@ export const spiritistBooks = [
     originalPublisher: 'FEB',
     publishedYear: '1955',
     copyright: '1955',
-    currentPublisher: '',
+    currentPublisher: 'FEB',
     isbn10: ['8573289430'],
     isbn13: ['978-8573289435'],
     index: 53,
@@ -1461,7 +1461,7 @@ export const spiritistBooks = [
     originalPublisher: 'FEB',
     publishedYear: '1962',
     copyright: '1962',
-    currentPublisher: '',
+    currentPublisher: 'FEB',
     isbn10: ['8573284692'],
     isbn13: ['978-8573284690'],
     index: 70,
@@ -8148,7 +8148,7 @@ export const spiritistBooks = [
     originalPublisher: 'CEU',
     publishedYear: '1988',
     copyright: '1988',
-    currentPublisher: '',
+    currentPublisher: 'CEU',
     isbn10: [],
     isbn13: [],
     index: 300,
@@ -10687,7 +10687,7 @@ export const spiritistBooks = [
     originalPublisher: 'IDEAL',
     publishedYear: '1996',
     copyright: '1995',
-    currentPublisher: '',
+    currentPublisher: 'IDEAL',
     isbn10: [],
     isbn13: [],
     index: 396,
@@ -10798,6 +10798,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 401,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295603/book-covers/pedacosdavida_js7yz2.jpg',
   },
   {
     title: 'Caminhos da Fé',
@@ -10812,6 +10814,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 402,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295639/book-covers/caminhosdafe_cz2djc.jpg',
   },
   {
     title: 'Caminhos da Vida',
@@ -10826,6 +10830,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 403,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295663/book-covers/caminhosdavida_k3as0l.jpg',
   },
   {
     title: 'Pétalas da vida',
@@ -10840,6 +10846,8 @@ export const spiritistBooks = [
     isbn13: ['978-8588796492'],
     index: 404,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295686/book-covers/petalasdavida_hltudd.jpg',
   },
   {
     title: 'Caminho iluminado',
@@ -10854,6 +10862,8 @@ export const spiritistBooks = [
     isbn13: ['978-8588796034'],
     index: 405,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295710/book-covers/caminhoiluminado_zrysza.jpg',
   },
   {
     title: 'Agenda de luz',
@@ -10878,6 +10888,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555702897'],
     index: 406,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295735/book-covers/agendadeluz_t4k0gi.jpg',
   },
   {
     title: 'Escada de luz',
@@ -10911,6 +10923,8 @@ export const spiritistBooks = [
     isbn13: ['978-8588796485', '978-6555703559'],
     index: 407,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295756/book-covers/escadadeluz_nyufq1.jpg',
   },
   {
     title: 'Canteiro de idéias',
@@ -10937,6 +10951,8 @@ export const spiritistBooks = [
     isbn13: ['978-6555703047', '978-6555703054'],
     index: 408,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295779/book-covers/canteirodeideias_jvu43j.jpg',
   },
   {
     title: 'Trovas da Vida',
@@ -10951,6 +10967,8 @@ export const spiritistBooks = [
     isbn13: ['978-8588796577'],
     index: 409,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295800/book-covers/trovasdavida_vc4rcx.jpg',
   },
   {
     title: 'Cidade no Além',
@@ -10965,6 +10983,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 410,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295821/book-covers/cidadenoalem_kxoco0.jpg',
   },
   {
     title: 'Perdão e vida',
@@ -11006,6 +11026,8 @@ export const spiritistBooks = [
     isbn13: ['978-8588796676', '978-6555704006'],
     index: 411,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295845/book-covers/perdaoevida_nqvzlb.jpg',
   },
   {
     title: 'Amor e verdade',
@@ -11039,6 +11061,8 @@ export const spiritistBooks = [
     isbn13: ['978-8562674259'],
     index: 412,
     verified: true,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784295868/book-covers/amoreverdade_nd3kmq.jpg',
   },
   {
     title: 'O Livro dos Espíritos',
@@ -11053,6 +11077,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 413,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784296785/book-covers/o-livro-dos-espiritos_fzhz7o.jpg',
   },
   {
     title: 'O Que é o Espiritismo',
@@ -11067,6 +11093,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 414,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784297588/book-covers/o-que-e-o-espiritsmo_snln8w.webp',
   },
   {
     title: 'O Livro dos Médiuns',
@@ -11075,12 +11103,14 @@ export const spiritistBooks = [
     yearPsychography: [],
     originalPublisher: 'FEB',
     publishedYear: '1861',
-    copyright: '',
+    copyright: '1944',
     currentPublisher: 'FEB',
     isbn10: [],
     isbn13: [],
     index: 415,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784298269/book-covers/o-livro-dos-mediuns_rrzrig.webp',
   },
   {
     title: 'O Evangelho Segundo o Espiritismo',
@@ -11089,12 +11119,14 @@ export const spiritistBooks = [
     yearPsychography: [],
     originalPublisher: 'FEB',
     publishedYear: '1864',
-    copyright: '',
+    copyright: '1944',
     currentPublisher: 'FEB',
     isbn10: [],
     isbn13: [],
     index: 416,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784298982/book-covers/o-evangelho-segundo-o-espiritismo_kyczur.jpg',
   },
   {
     title: 'O Céu e o Inferno',
@@ -11109,6 +11141,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 417,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784299564/book-covers/o-ceu-e-o-inferno_nsyryp.webp',
   },
   {
     title: 'A gênese',
@@ -11123,6 +11157,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 418,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/c_thumb,w_200,g_face/v1784300044/book-covers/a-genese_xdyt5n.jpg',
   },
   {
     title: 'Obras Póstumas',
@@ -11137,6 +11173,8 @@ export const spiritistBooks = [
     isbn13: [],
     index: 419,
     verified: false,
+    originalCover:
+      'https://res.cloudinary.com/dzd9hs8by/image/upload/v1784300533/book-covers/obraspostumas_lvin5u.jpg',
   },
   {
     title: 'Nos bastidores da obsessão',
